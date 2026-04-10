@@ -5,6 +5,9 @@ import {
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
+import logo from '../assets/logo.png';
+import dashboardIcon from '../assets/dashboard_icon.png';
+import libraryIcon from '../assets/menu-library-icon.png';
 
 export default function Layout() {
    const navigate = useNavigate();
@@ -12,12 +15,12 @@ export default function Layout() {
     {
       name: 'Dashboard',
       id: 'dashboard',
-      iconUrl: `${import.meta.env.VITE_WEB_URL}src/assets/dashboard_icon.png`,
+      iconUrl: dashboardIcon,
       isActive: false
     }, {
       name: 'Library',
       id: 'library',
-      iconUrl: `${import.meta.env.VITE_WEB_URL}src/assets/menu-library-icon.png`,
+      iconUrl: libraryIcon,
       isActive: true
     },
   ])
@@ -38,7 +41,7 @@ export default function Layout() {
         <Toolbar>
           <div className="toolbar-content">
             <div className="left-toolbar">
-              <img src="../../src/assets/logo.png" />
+              <img src={logo} />
             </div>
             <div className="right-toolbar">
               <Button color="inherit">Welcome Admin</Button>

@@ -7,8 +7,7 @@ import Timeline from "./Timeline";
 import { transformTags } from "../../../utilities/transform";
 import { fetchModerationData } from '../../../services/api';
 import { timeToSeconds } from "../../../utilities/transform";
-import { useNavigate, useLocation } from 'react-router-dom';
-
+import { useNavigate, useLocation } from 'react-router-dom';import backIcon from '../../../assets/back-icon.png';
 export default function VideoModerationManagement() {
 
   const navigate = useNavigate();
@@ -73,7 +72,7 @@ export default function VideoModerationManagement() {
       <div className="col-12 mb-3 back-to-library">
         <div className="d-flex align-items-center">
           <div onClick={() => navigate(-1)}>
-            <img src="../../src/assets/back-icon.png" className="back-icon" />
+            <img src={backIcon} className="back-icon" />
             Back
           </div>
         </div>

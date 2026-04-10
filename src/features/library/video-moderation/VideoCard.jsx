@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import pendingIcon from '../../../assets/pending.png';
 
 
 const VideoCard = ({ video }) => {
@@ -39,7 +40,7 @@ const VideoCard = ({ video }) => {
       <div className="d-flex video-details">
         <div>{video.video_title || 'Video Title'}</div>
         <div className="status pending">
-          <span><img src={`${import.meta.env.VITE_WEB_URL}src/assets/pending.png`} /></span>Pending</div>
+          <span><img src={pendingIcon} /></span>Pending</div>
       </div>
     </div>
   );
