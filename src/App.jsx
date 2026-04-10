@@ -1,7 +1,7 @@
 import VideoLibrary from "./features/library/video-moderation/VideoLibrary";
 import VideoModerationManagement from "./features/library/video-moderation/VideoModerationManagement";
 import Login from "./features/login/login";
-import Dashboard from "./features/dashboard/Dashboard";
+import Dashboard from "./features/dashboard/dashboard";
 import { useState } from "react";
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
