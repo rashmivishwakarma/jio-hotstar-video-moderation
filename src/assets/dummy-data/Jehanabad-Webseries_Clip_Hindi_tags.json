@@ -1,0 +1,106 @@
+{
+    "video_id":"zR4fEQQ5oHQ",
+    "video_length": 60,
+    "video_title":"TEACHER PROTECTING A STUDENT FROM BULLY OVER CASTE DISCRIMINATION | JEHANABAD OF LOVE AND WAR(2023)",
+    "tags": {
+        "SEX_NUDITY_AND_OBSCENITY": [
+            {
+                "start_time": "00:42",
+                "end_time": "00:45",
+                "reason": "Use of implied/attempted strong abusive language. The character tries to utter the Hindi expletive 'Madarchod' (Motherfucker) twice directed at the professor, but is interrupted by physical violence."
+            },
+            {
+                "start_time": "00:54",
+                "end_time": "00:56",
+                "reason": "Use of strong abusive language (Obscenity). The character uses the Hindi expletive 'Madarchod' (Motherfucker) directed at another student."
+            }
+        ],
+        "PROFANITY_AND_COARSE_LANGUAGE": [
+            {
+                "start_time": "00:18",
+                "end_time": "00:20",
+                "reason": "The character uses the offensive term 'Saala' and coarse language 'hagne laga' (translating to 'started shitting on us') in an aggressive manner."
+            },
+            {
+                "start_time": "00:43",
+                "end_time": "00:45",
+                "reason": "The character begins to utter the strong Hindi profanity 'Maderchod' (Motherf***er), saying 'Mader...', before being cut off by a physical assault."
+            },
+            {
+                "start_time": "00:54",
+                "end_time": "00:56",
+                "reason": "The character explicitly uses the strong abusive expletive 'Maderchod' (Motherf***er) directed at another student."
+            }
+        ],
+        "GRAPHIC_VIOLENCE_CRIME_GORE": [
+            {
+                "start_time": "00:00",
+                "end_time": "00:02",
+                "reason": "A physical altercation occurs between a group of men involving aggressive pushing and shoving before being broken up."
+            },
+            {
+                "start_time": "00:39",
+                "end_time": "00:41",
+                "reason": "The character in the checkered shirt physically assaults the character in the yellow kurta by slapping him hard across the face."
+            },
+            {
+                "start_time": "00:44",
+                "end_time": "00:46",
+                "reason": "The character in the yellow kurta attempts to lunge aggressively, leading to a second instance of physical violence where he is slapped again."
+            }
+        ],
+        "SMOKING_ALCOHOL_AND_DRUGS": [],
+        "HORROR_OCCULT_AND_SUPERSTITION": [],
+        "RELIGION_CASTE_AND_COMMUNITY": [
+            {
+                "start_time": "00:15",
+                "end_time": "00:20",
+                "reason": "The character makes derogatory remarks about a specific group of students, stating they do not have the 'status' (aukat) to sit with them, implying caste-based discrimination regarding social hierarchy and access to education."
+            },
+            {
+                "start_time": "00:23",
+                "end_time": "00:27",
+                "reason": "The aggressor questions the teacher's neutrality by appealing to a shared community or caste identity ('You too are from our caste, right?'), suggesting community bias should override fairness."
+            },
+            {
+                "start_time": "00:47",
+                "end_time": "00:50",
+                "reason": "The teacher explicitly addresses the underlying issue by asking the crowd if anyone else has a problem with the student's 'caste,' confirming the conflict is motivated by caste discrimination."
+            }
+        ],
+        "IMPROPER_USE_OF_NATIONAL_ASSETS": [],
+        "HATE_SPEECH_AND_HARMFUL_CONTENT": [
+            {
+                "start_time": "00:15",
+                "end_time": "00:20",
+                "reason": "The character in the yellow shirt makes derogatory, caste-based discriminatory remarks, stating that a certain group of people lacks the 'status' (aukat) to associate with them."
+            },
+            {
+                "start_time": "00:28",
+                "end_time": "00:32",
+                "reason": "The same character engages in gender-based harmful speech, telling a female student to 'stay within her limits' because she is a girl."
+            },
+            {
+                "start_time": "00:54",
+                "end_time": "00:58",
+                "reason": "The character uses severe abusive language (mother-sister insult) and issues a direct threat of violence ('meet me outside') to a student, inciting physical harm."
+            }
+        ],
+        "PRIVACY_AND_BRAND_DEFAMATION": [],
+        "CONTEMPT_OF_COURT": [],
+        "MISTREATMENT_OF_MARGINALIZED": [
+            {
+                "start_time": "00:15",
+                "end_time": "00:26",
+                "reason": "A character verbally abuses another student using casteist language, claiming 'these people' do not belong in their society or college due to their social standing ('aukat'), and attempts to align with the teacher based on shared caste identity."
+            },
+            {
+                "start_time": "00:29",
+                "end_time": "00:32",
+                "reason": "The same character targets a female student with gender-based discrimination, aggressively threatening her to stay within her 'limits' specifically because she is a girl."
+            }
+        ],
+        "COPYRIGHT_AND_TRADEMARK": [],
+        "TOPICAL_CONTROVERSIES": []
+    }
+}

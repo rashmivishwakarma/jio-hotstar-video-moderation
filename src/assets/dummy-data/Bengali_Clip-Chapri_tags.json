@@ -1,0 +1,44 @@
+{
+    "video_id":"97rKJQ6tSJ8",
+    "video_length": 38,
+    "video_title":"Chapri দের পরিচয়।Chapri কাদের বলে।",
+    "tags": {
+        "SEX_NUDITY_AND_OBSCENITY": [],
+        "PROFANITY_AND_COARSE_LANGUAGE": [
+            {
+                "start_time": "00:33",
+                "end_time": "00:34",
+                "reason": "The speaker uses the coarse slang word 'sala' (a mild expletive commonly considered inappropriate in formal broadcast contexts) while aggressively describing a group of people."
+            }
+        ],
+        "GRAPHIC_VIOLENCE_CRIME_GORE": [],
+        "SMOKING_ALCOHOL_AND_DRUGS": [],
+        "HORROR_OCCULT_AND_SUPERSTITION": [],
+        "RELIGION_CASTE_AND_COMMUNITY": [
+            {
+                "start_time": "00:00",
+                "end_time": "00:37",
+                "reason": "The video consists of a monologue repeatedly using the term 'Chapri,' which has casteist etymological roots and is used here as a derogatory slur against a specific socioeconomic demographic. At timestamp 00:33, the speaker explicitly heightens the sensitivity by stating 'Oder shob puro jati Chapri' (Their entire caste/community is Chapri), using the word 'Jati' to generalize the insult to a whole community."
+            }
+        ],
+        "IMPROPER_USE_OF_NATIONAL_ASSETS": [],
+        "HATE_SPEECH_AND_HARMFUL_CONTENT": [],
+        "PRIVACY_AND_BRAND_DEFAMATION": [
+            {
+                "start_time": "00:24",
+                "end_time": "00:30",
+                "reason": "The speaker explicitly names the brand 'KTM' and links it directly to the derogatory term 'Chapri' (implies uncultured or delinquent behavior), stating that those who ride KTMs are 'Chapris.' This creates a negative association with a specific trademark, constituting potential brand defamation or disparagement."
+            }
+        ],
+        "CONTEMPT_OF_COURT": [],
+        "MISTREATMENT_OF_MARGINALIZED": [],
+        "COPYRIGHT_AND_TRADEMARK": [
+            {
+                "start_time": "00:00",
+                "end_time": "00:36",
+                "reason": "Unauthorized use of the copyrighted song 'Cheques' by Shubh as background music throughout the video. Additionally, the registered trademark 'Super Bowl' is visible on the subject's clothing, constituting a potential trademark infringement."
+            }
+        ],
+        "TOPICAL_CONTROVERSIES": []
+    }
+}
