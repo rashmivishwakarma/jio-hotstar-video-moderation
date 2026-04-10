@@ -73,7 +73,7 @@ const ViolationSidebar = ({ segments, activeId, onSelect }) => {
                 </div>
                 
                 <div className="mt-2 pt-2 border-top border-secondary opacity-50">
-                    <small style={{fontSize: '10px'}}>AI Accuracy: 92%</small>
+                    <small style={{fontSize: '10px'}}>AI Accuracy: {item.accuracy}</small>
                 </div>
                 </div>
             );

@@ -321,7 +321,8 @@
                     "end_time": "00:02",
                     "reason": "Aggressive pushing and shoving",
                     "transcript": "Bas...bas..",
-                    "scene_description": "A physical altercation occurs between a group of men involving aggressive pushing and shoving before being broken up."
+                    "scene_description": "A physical altercation occurs between a group of men involving aggressive pushing and shoving before being broken up.",
+                    "accuracy": "92%"
                 }
             ],
             "SMOKING_ALCOHOL_AND_DRUGS": [],

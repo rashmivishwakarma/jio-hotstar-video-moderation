@@ -38,8 +38,8 @@ const VideoCard = ({ video }) => {
         />
       )}
       <div className="d-flex video-details">
-        <div>{video.video_title || 'Video Title'}</div>
-        <div className="status pending">
+        <div className="video-title">{video.video_title || 'Video Title'}</div>
+        <div className="video-status pending">
           <span><img src={pendingIcon} /></span>Pending</div>
       </div>
     </div>

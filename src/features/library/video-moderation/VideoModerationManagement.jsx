@@ -7,7 +7,9 @@ import Timeline from "./Timeline";
 import { transformTags } from "../../../utilities/transform";
 import { fetchModerationData } from '../../../services/api';
 import { timeToSeconds } from "../../../utilities/transform";
-import { useNavigate, useLocation } from 'react-router-dom';import backIcon from '../../../assets/back-icon.png';
+import { useNavigate, useLocation } from 'react-router-dom';
+import backIcon from '../../../assets/back-icon.png';
+
 export default function VideoModerationManagement() {
 
   const navigate = useNavigate();
@@ -19,7 +21,7 @@ export default function VideoModerationManagement() {
   const [loading, setLoading] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
   const [videoId, setVideoId] = useState('');
-  const playerRef = useRef();
+  const playerRef = useRef(null);
 
   const togglePlay = () => {
     if (isPlaying) {
@@ -38,10 +40,11 @@ export default function VideoModerationManagement() {
   const loadModeration = async () => {
     try {
       const res = await fetchModerationData(location.state?.videoId);
-      setDuration(res.video_length);
-      setSegments(transformTags(res.tags));
+      let sortedTags = transformTags(res.tags).sort((a, b) => a.start_time.localeCompare(b.start_time));
 
-      setVideoId(res.video_id)
+      setDuration(res.video_length);
+      setSegments(sortedTags);
+      setVideoId(res.video_id);
     } finally {
       setLoading(false);
     }
@@ -72,7 +75,7 @@ export default function VideoModerationManagement() {
       <div className="col-12 mb-3 back-to-library">
         <div className="d-flex align-items-center">
           <div onClick={() => navigate(-1)}>
-            <img src={backIcon} className="back-icon" />
+             <img src={backIcon} className="back-icon" />
             Back
           </div>
         </div>

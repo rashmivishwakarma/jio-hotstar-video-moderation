@@ -27,7 +27,8 @@ export function transformTags(tags){
         start_time:i.start_time,
         end_time: i.end_time,
         transcript: 'transcript' in i ? i.transcript : '',
-        scene_description: 'scene_description' in i ? i.scene_description : ''
+        scene_description: 'scene_description' in i ? i.scene_description : '',
+        accuracy: 'accuracy' in i ? i.accuracy : '90%',
       });
     });
   });

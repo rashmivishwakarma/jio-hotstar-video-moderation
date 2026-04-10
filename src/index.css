@@ -332,19 +332,15 @@ input {
   word-wrap: break-word;
 }
 
-/* .bottom-section {
-  flex-grow: 1;   
-  flex-basis: 0;   
-  overflow-y: auto;
-  background: #262730;
-  padding: 12px;
-  word-wrap: break-word;
-} */
 .bottom-section {
   background: #262730;
   padding: 12px;
   word-wrap: break-word;
   height: 60%;
+}
+
+.right-container .top-section{
+  height: 32%;
 }
 
 .menu-bar{
@@ -380,13 +376,27 @@ input {
   background: transparent;
   color: #fff;
   cursor: pointer;
+  border:1px solid #545050;
+  padding: 10px;
 }
 
 .video-details{
   justify-content: space-between;
   width: 100%;
 }
-.status span{ margin-right:5px;}
+
+.video-title{
+  margin-top:10px;
+  max-width: 90%;
+ white-space: nowrap;       /* no wrap */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.video-status{
+  margin-top:10px;
+  display: flex;
+}
+.video-status span{ margin-right:5px;}
 .pending{
   color: #E9740D;
 }
